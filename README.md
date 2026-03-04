@@ -1,24 +1,6 @@
 ## 👤 Owner & Support
 - **Telegram:** [t.me/deew1771](https://t.me/deew1771)
 
----
-## 📂
-├── bpf/
-│   ├── include/ (common.h, maps.h, endian.h)
-│   ├── modules/ (dpi.h, ratelimit.h, challenge.h) 
-│   ├── stages/  (stage0.h -> stage3.h) 
-│   └── core.c   
-├── cmd/
-│   └── dashboard/main.go 
-├── pkg/
-│   ├── ebpf/loader.go   
-│   └── config/manager.go 
-├── scripts/
-│   └── build.sh 
-└── Makefile 
-
----
-
 # INSTALLATION
 
 ```bash
@@ -50,5 +32,6 @@ sudo ./ctrl stage 0
 ```bash
 sudo cat /sys/kernel/debug/tracing/trace_pipe
 ```
+
 
 
