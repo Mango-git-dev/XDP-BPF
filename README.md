@@ -36,6 +36,8 @@ sudo cat /sys/kernel/debug/tracing/trace_pipe
 
 
 -> You can using file package.sh to download and install base of iptables and some basic filter from linux.
-
+---
 NOTE: This source only filter a little bit,but you can upgrade by your own.
+---
 Suggestion: Don't using AI to update,you need know about system. AI is stupid at networking.
+
